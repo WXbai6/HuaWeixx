@@ -1,0 +1,13 @@
+<div class="container" onswipe="toReport1Page">
+    <image src="/common/hm.png" class="img" style="animation-duration: {{duration}};animation-iteration-count: {{count}};"/>
+    <text class="txt1">
+        {{breath}}({{percent}}%)
+    </text>
+    <text class="txt2" if="{{isShow}}">
+        再坚持{{seconds}}秒
+    </text>
+    <text class="txt3" else>
+        右滑查看训练报告
+    </text>
+    <input class="btn" type="button" onclick="clickAction" value="点击重新开始"/>
+</div>

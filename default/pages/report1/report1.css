@@ -1,0 +1,48 @@
+.container {
+/*    display: flex;*/
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+/*    left: 0px;*/
+/*    top: 0px;*/
+    width: 454px;
+    height: 454px;
+}
+.title-container{
+    width:300px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 38px;
+    margin-top: 40px;
+/*    text-align: center;*/
+/*    width: 454px;*/
+/*    height: 100px;*/
+}
+.state-wrapper{
+    width: 320px;
+    height: 220px;
+}
+.state-item{
+    width: 320px;
+    height: 55px;
+    flex-direction: column;
+}
+.progress-bar{
+    width: 320px;
+    height: 5px;
+    margin-top: 5px;
+}
+.state{
+    font-size: 24px;
+    color: gray;
+}
+
+.state-percent{
+    width: 320px;
+    height: 25px;
+    justify-content: space-between;
+}
+

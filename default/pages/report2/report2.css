@@ -1,0 +1,55 @@
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+}
+
+.title {
+    margin-top:40px;
+    font-size:38px;
+}
+.title {
+    justify-content: conter;
+    align-items:center;
+    width:300px;
+    height:130px;
+}
+.chart {
+    width:400px;
+    height:180px;
+}
+.list {
+    flex-direction: row;
+    width:200px;
+    height:45px;
+}
+.list-item {
+    justify-content: conter;
+    align-items:center;
+    width:100px;
+    height:45px;
+}
+.icon {
+    width:32px;
+    height:32px;
+}
+.maxmin {
+    font-size:24px;
+    letter-spacing:8px;
+}
+.average-container {
+    justify-content: space-between;
+    align-items:center;
+    width:220px;
+    height:55px;
+}
+.average {
+    font-size:24px;
+    color:gray;
+}
+.average-number {
+    font-size:38px;
+    letter-spacingL:0px;
+}

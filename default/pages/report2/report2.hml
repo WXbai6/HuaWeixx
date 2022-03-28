@@ -1,0 +1,29 @@
+<div class="container" onswipe="toNextPage">
+    <div class="title-container">
+        <text class="title">
+            第二个训练报告页面
+        </text>
+    </div>
+    <div class="chart">
+
+    </div>
+    <list class="list">
+        <list-item class="list-item" for="{{maxmin}}">
+            <image class="icon" src="/common/{{$item.iconName}}.png"></image>
+            <text class="maxmin">
+                {{$item-nValue}}
+            </text>
+        </list-item>
+    </list>
+    <div class="average-container">
+        <text class="average">
+            平均
+        </text>
+        <text class="average-number">
+            平均
+        </text>
+        <text class="average">
+            次/分
+        </text>
+    </div>
+</div>
